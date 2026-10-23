@@ -113,3 +113,4 @@ jobs:
           tags: |
             ghcr.io/${{ github.repository_owner }}/esphome-hassio-packages:latest
             ghcr.io/${{ github.repository_owner }}/esphome-hassio-packages:${{ github.sha }}
+            ghcr.io/${{ github.repository_owner }}/esphome-hassio-packages:2026.11.0-dev20261023
