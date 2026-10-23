@@ -28,7 +28,7 @@ init: false
 startup: services
 name: ESPHome Device Builder (custom dev)
 panel_title: ESPHome Builder (custom)
-version: 2026.11.0-dev20261023.1
+version: 2026.11.0-dev20261023.2
 slug: esphome-dev-custom
 description: Custom development build of ESPHome Device Builder
 image: ghcr.io/schinckel/esphome-hassio-packages
