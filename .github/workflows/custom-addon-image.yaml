@@ -107,10 +107,10 @@ jobs:
         with:
           context: esphome-dev-custom
           build-args: |
-            BUILD_VERSION=2026.11.0-dev20261023
+            BUILD_VERSION=2026.11.0-dev20261023.1
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
             ghcr.io/${{ github.repository_owner }}/esphome-hassio-packages:latest
             ghcr.io/${{ github.repository_owner }}/esphome-hassio-packages:${{ github.sha }}
-            ghcr.io/${{ github.repository_owner }}/esphome-hassio-packages:2026.11.0-dev20261023
+            ghcr.io/${{ github.repository_owner }}/esphome-hassio-packages:2026.11.0-dev20261023.1
